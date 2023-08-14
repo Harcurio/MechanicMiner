@@ -20,22 +20,27 @@ public class NewRules
 
         //Debug.Log(variables);
 
-        Variable bar0 = new Variable("knockbackStrength", 0.5f);
-        Variable bar1 = new Variable("knockBackLength", 0.9f);
-        Variable bar2 = new Variable("walkSpeed", 0.6f);
-        Variable bar3 = new Variable("knockbackTimeCount", 0.2f);
-        Variable bar4 = new Variable("knockFromRight", false);
-        Variable bar5 = new Variable("desiredWalkDirection", 0.9f);
-        Variable bar6 = new Variable("knockbackFinished", false);
-        Variable bar7 = new Variable("jumpSpeed", 0.8f);
+        Variable bar0 = new Variable("speed", 20f);
+        Variable bar1 = new Variable("jumpForce", 8f);
+        Variable bar2 = new Variable("position.x", 1f); // with this we are gonna change the transform 
+        Variable bar3 = new Variable("position.y", 1f);
+        //new variables here
+        //gravity maybe? 
+
+
+         
+        //Variable bar4 = new Variable("knockFromRight", false);
+        //Variable bar5 = new Variable("desiredWalkDirection", 0.9f);
+        //Variable bar6 = new Variable("knockbackFinished", false);
+        //Variable bar7 = new Variable("jumpSpeed", 0.8f);
 
         this.varList.Add(bar0);
         this.varList.Add(bar1);
         this.varList.Add(bar2);
         this.varList.Add(bar3);
-        this.varList.Add(bar4);
-        this.varList.Add(bar5);
-        this.varList.Add(bar6);
+        //this.varList.Add(bar4);
+        //this.varList.Add(bar5);
+        //this.varList.Add(bar6);
 
         //to store the original values if needed 
         this.oldVarList = this.varList;
@@ -85,26 +90,6 @@ public class NewRules
             Debug.Log("Unable to save dictionary");
         }*/
     }
-    /*   FUNCTION TO SAVE THE DICTIONARY NOT FINISHED YET...
-    public Dictionary<string, Variable> loadDict()
-    {
-        
-        Dictionary<string, Variable> Dict = new Dictionary<string, Variable>();
-
-        try
-        {
-            FileStream readerFileStream = new FileStream("dictionary.dat", FileMode.Open, FileAccess.Read);
-            Dict = (Dictionary<string, Variable>)formatter.Deserialize(readerFileStream);
-            readerFileStream.Close();
-
-        }
-        catch (Exception)
-        {
-            Debug.Log("Unable to recovery dictionary");
-        }
-
-        return Dict;
-    }*/
 
 
     //function to update all the new values
@@ -282,10 +267,28 @@ public class NewRules
 
         }
 
+        // FILE
+
+        //Metrics agentMetrics = JsonUtility.FromJson<Metrics>(json);
+
+
         //con.applyCondition();
         //newVar[this.variablePlace] = toModify;
         //Debug.Log(this.key);
         return generatedRule;
+    }
+
+
+
+
+
+
+    [System.Serializable]
+    private class ruleGeneratedtoFile
+    {
+        public string generatedRule;
+
+
     }
 
 
@@ -355,6 +358,26 @@ public class NewRules
                 return Effect.effects.residue;
             default:
                 return Effect.effects.change;
+        }
+    }
+
+    
+    public int getEffectUsedtoInt(string cond)
+    {
+        switch (cond)
+        {
+            case "add":
+                return 0;
+            case "subtract":
+                return 1;
+            case "multiply":
+                return 2;
+            case "divide":
+                return 3;
+            case "residue":
+                return 4;
+            default:
+                return -1;
         }
     }
 

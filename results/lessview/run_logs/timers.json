@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1665088355",
+        "python_version": "3.6.13 |Anaconda, Inc.| (default, Mar 16 2021, 11:37:27) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Johor\\anaconda3\\envs\\env\\Scripts\\mlagents-learn config/MoveToGoal2.yaml --run-id=lessview --resume",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1665088360"
+    },
+    "total": 4.3393052999999995,
+    "count": 1,
+    "self": 0.004782799999999199,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07567310000000001,
+            "count": 1,
+            "self": 0.07567310000000001
+        },
+        "TrainerController.start_learning": {
+            "total": 4.2588494,
+            "count": 1,
+            "self": 0.0003554999999986208,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 4.2584846,
+                    "count": 1,
+                    "self": 4.2584846
+                },
+                "trainer_threads": {
+                    "total": 1.2000000007006406e-06,
+                    "count": 1,
+                    "self": 1.2000000007006406e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 8.100000000510477e-06,
+                    "count": 1,
+                    "self": 8.100000000510477e-06
+                }
+            }
+        }
+    }
+}

@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rules : MonoBehaviour
+
+[System.Serializable]
+public class Rules 
 {
     public bool used = false;
 
-    public string name;
+    public new string name;
     public string comparator;
     public string valueComparator;
     public string effect;
     public string valueEffect;
+    public string allToString;
 
 
 
@@ -22,6 +25,18 @@ public class Rules : MonoBehaviour
         this.effect = effect;
         this.valueEffect = valueEffect;
         this.used = true;
+        this.allToString = name + "|" + comparator + "|" + valueComparator + "|" + effect +"|"+ valueEffect;
+    }
+
+    public void printValues()
+    {
+        Debug.Log(this.name);
+        Debug.Log(this.comparator);
+        Debug.Log(this.valueComparator);
+        Debug.Log(this.effect);
+        Debug.Log(this.valueEffect);
+
+
     }
 
 

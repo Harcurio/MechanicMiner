@@ -1,0 +1,72 @@
+Mono path[0] = 'C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Managed'
+Mono config path = 'C:/Users/Johor/Documents/ML/FinalWithRules00/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
+[Subsystems] Discovering subsystems at path C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.240 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader TextMeshPro/Mobile/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 0.463200 ms
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data/Mono/libSystem.dylib
+IOException: Sharing violation on path C:\Users\Johor\Documents\ML\FinalWithRules00\platformerEnvironment_Data\saveRuleandMetric.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x001b7] in <a1e9f114a6e64f4eacb529fc802ec93d>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options, System.String msgPath, System.Boolean bFromProxy, System.Boolean useLongPath, System.Boolean checkHost) [0x00000] in <a1e9f114a6e64f4eacb529fc802ec93d>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions,string,bool,bool,bool)
+  at System.IO.StreamWriter.CreateFile (System.String path, System.Boolean append, System.Boolean checkHost) [0x0001c] in <a1e9f114a6e64f4eacb529fc802ec93d>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize, System.Boolean checkHost) [0x00055] in <a1e9f114a6e64f4eacb529fc802ec93d>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00000] in <a1e9f114a6e64f4eacb529fc802ec93d>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <a1e9f114a6e64f4eacb529fc802ec93d>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00000] in <a1e9f114a6e64f4eacb529fc802ec93d>:0 
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00007] in <a1e9f114a6e64f4eacb529fc802ec93d>:0 
+  at MoveToGoal.calculatePastMetric () [0x000eb] in <41c22496acfd43308c31587dc8cc8962>:0 
+  at MoveToGoal.Awake () [0x000c5] in <41c22496acfd43308c31587dc8cc8962>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.MLAgents.Agent.UpdateSensors () [0x00000] in <133f89a7fd854ba4842e32db0d6cd7b9>:0 
+  at Unity.MLAgents.Agent.NotifyAgentDone (Unity.MLAgents.Agent+DoneReason doneReason) [0x0006d] in <133f89a7fd854ba4842e32db0d6cd7b9>:0 
+  at Unity.MLAgents.Agent.OnDisable () [0x00080] in <133f89a7fd854ba4842e32db0d6cd7b9>:0 
+
+Unable to save timers to file C:/Users/Johor/Documents/ML/FinalWithRules00/platformerEnvironment_Data\ML-Agents\Timers\SampleScene_timers.json
+Setting up 16 worker threads for Enlighten.
+  Thread -> id: 3d34 -> priority: 1 
+  Thread -> id: a7c4 -> priority: 1 
+  Thread -> id: f48 -> priority: 1 
+  Thread -> id: 88d0 -> priority: 1 
+  Thread -> id: 9714 -> priority: 1 
+  Thread -> id: 6398 -> priority: 1 
+  Thread -> id: 76ac -> priority: 1 
+  Thread -> id: 3df8 -> priority: 1 
+  Thread -> id: 6864 -> priority: 1 
+  Thread -> id: ad58 -> priority: 1 
+  Thread -> id: 4a88 -> priority: 1 
+  Thread -> id: 34a8 -> priority: 1 
+  Thread -> id: 7e90 -> priority: 1 
+  Thread -> id: 8434 -> priority: 1 
+  Thread -> id: 85b0 -> priority: 1 
+  Thread -> id: 87a8 -> priority: 1 

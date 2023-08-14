@@ -20,6 +20,7 @@ TagManager:
   - stone
   - tile
   - tokenA1
+  - PossibleBest
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - Enemies
   - GOALS
   - Platforms
-  - 
+  - PossibleBestPath
   - 
   - 
   - 

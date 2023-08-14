@@ -20,21 +20,24 @@ public class PlayerMovement : MonoBehaviour
     MovementState state;
 
 
-    public float speed = 0;
-    public float jumpForce = 0;
+    public float speed = 8;
+    public float jumpForce = 8;
+    //public float sensorLength = 5f;
 
-
-    public float sensorLength = 5f;
-
-
+    private float oldSpeed;
+    private float oldJump;
 
 
     private enum MovementState { idle, running, jumping, falling }
     private bool death = false;
 
 
+    // for new rules
+    //NewRules Rls;
+    //public Rules newRl;
+    public bool ruleGenerated = false;
 
-    
+
 
 
 
@@ -44,33 +47,30 @@ public class PlayerMovement : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         boxC = GetComponent<BoxCollider2D>();
+        //Rls = new NewRules("variables here"); // I need to introduce the variables here and made a funtion that will make the changes...
+
+        oldSpeed = speed;
+        oldJump = jumpForce;
+
+        
+        
     }
-
-    /*
-    public void Sensors()
-    {
-        RaycastHit2D hit;
-        Vector2 sensorStartPos = transform.position;
-
-
-    }*/
 
 
     void Update()
     {
 
-        //dirX = Input.GetAxis("Horizontal");
-        //move.y = rb.velocity.y;
-        //rb.velocity = new Vector2( dirX * 7f, rb.velocity.y);
-        /*
-        if (Input.GetButtonDown("Jump") )
+        
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            jumpActivate();
-        }*/
-       // UpdateAnimationState();
-
+            //generateNewRule();
+            Debug.Log("the rule was generated from the begining of the code...");
+        }
+        
 
     }
+
+
 
     public void jumpActivate()
     {
@@ -79,11 +79,10 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
         
-        //isJumping = true;
     }
 
 
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
         float extraHeightText = .1f;
         RaycastHit2D  raycasthit = Physics2D.Raycast(boxC.bounds.center, Vector2.down, boxC.bounds.extents.y + extraHeightText, platformLayerMask);
@@ -96,8 +95,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rayColor = Color.red;
         }
-        //Debug.DrawRay(boxC.bounds.center, Vector2.down * (boxC.bounds.extents.y + extraHeightText));
-        //Debug.Log(raycasthit.collider);
+
         return raycasthit.collider != null;
     }
 
@@ -114,7 +112,99 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-   
+
+    
+
+
+    // need a old variable that will contain the original value as the rule so each time that we reset the rule will have the same value
+    // neeed a DEFAULT CASE WHEN NON RULE IS CREATED 
+    public void setNewRule(NewRules Rls, Rules newRl)
+    {
+        //Debug.Log("setNewRule");
+        int usedEffect = Rls.getEffectUsedtoInt(newRl.effect);
+        int valueToAdd = int.Parse(newRl.valueEffect);
+
+        if (newRl.name == "speed")
+        {
+            switch (usedEffect)
+            {
+                case 0:
+                    speed += valueToAdd;
+                    break;
+                case 1:
+                    speed -= valueToAdd;
+                    break;
+                case 2:
+                    speed *= valueToAdd;
+                    break;
+                case 3:
+                    speed /= valueToAdd;
+                    break;
+                case 4:
+                    speed %= valueToAdd;
+                    break;
+                default:
+                    break;
+
+            }
+
+        }
+        else if (newRl.name == "jumpForce")
+        {
+            switch (usedEffect)
+            {
+                case 0:
+                    jumpForce += valueToAdd;
+                    break;
+                case 1:
+                    jumpForce -= valueToAdd;
+                    break;
+                case 2:
+                    jumpForce *= valueToAdd;
+                    break;
+                case 3:
+                    jumpForce /= valueToAdd;
+                    break;
+                case 4:
+                    jumpForce %= valueToAdd;
+                    break;
+                default:
+                    break;
+
+            }
+
+
+        }
+        else if (newRl.name == "position.x")
+        {
+            rb.transform.position = new Vector2(rb.transform.position.x + (float)valueToAdd, rb.transform.position.y);
+
+        }
+        else if (newRl.name == "position.y")
+        {
+            rb.transform.position = new Vector2(rb.transform.position.x, rb.transform.position.y + (float)valueToAdd);
+        }
+
+
+    }
+
+    /// <summary>
+    /// this function is for movement and jump given that those values are only available when the agent press a button...
+    /// </summary>
+    public void setOldRule(NewRules Rls, Rules newRl)
+    {
+        //Debug.Log("setOldRule");
+        if (newRl.name == "speed")
+        {
+            speed = oldSpeed;
+        }
+        else if (newRl.name == "jumpForce")
+        {
+            jumpForce = oldJump;
+        }
+
+    }
+
 
     public void UpdateAnimationState(float dir)
     {
@@ -133,18 +223,18 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             state = MovementState.idle;
-            //isJumping = false;
+            
         }
 
         if (rb.velocity.y > .1f)
         {
             state = MovementState.jumping;
-            //isJumping = true;
+            
         }
         else if (rb.velocity.y < -.1f)
         {
             state = MovementState.falling;
-            //isJumping = true;
+            
         }
 
         anim.SetInteger("state", (int)state);
@@ -176,7 +266,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("tokenItem"))
         {
-            //Destroy(collision.gameObject);
+            
             collision.gameObject.transform.position = new Vector3(200f, -200f, 1f);
             
         }
@@ -185,18 +275,9 @@ public class PlayerMovement : MonoBehaviour
         {
             if (state != MovementState.falling)
             {
-                //Destroy(collision.gameObject); // move object
-                //collision.gameObject.transform.position = new Vector3(200f, -200f, 1f);
                 death = true;
             }
-            //else
-            //{
-                //transform.position = new Vector3(-2.84f,0.68f,1f);
-                //RestartLevel();
-                
-                //Debug.Log("Muerto en la vida real");
-                //DEAD
-            //}
+            
             
         }
     }
@@ -205,26 +286,3 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-
-
-
-/*
-    void UpdateAnimationState()
-   {
-       if (dirX > 0f)
-       {
-           anim.SetBool("running", true);
-           sprite.flipX = false;
-
-       }
-       else if (dirX < 0f)
-       {
-           anim.SetBool("running", true);
-           sprite.flipX = true;
-       }
-       else
-       {
-           anim.SetBool("running", false);
-       }
-
-   }*/
