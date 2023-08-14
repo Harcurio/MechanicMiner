@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - TutorialRequirement
+  - Goal
+  - OutZone
+  - Level
+  - tokenItem
+  - Enemy
+  - topEnemy
+  - agent
+  - wall
+  - switchOff
+  - pyramid
+  - block
+  - goal
+  - stone
+  - tile
+  - tokenA1
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - token
+  - Water
+  - UI
+  - Enemies
+  - GOALS
+  - Platforms
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1535256193
+    locked: 0
+  - name: Foreground
+    uniqueID: 3979511717
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

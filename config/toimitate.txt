@@ -1,0 +1,6 @@
+gail:
+        strength: 0.1
+        demo_path: Demos/gameShortMap.demo
+    behavioral_cloning:
+      strength: 0.1
+      demo_path: Demos/gameShortMap.demo

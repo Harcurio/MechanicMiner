@@ -1,0 +1,719 @@
+Mono path[0] = 'C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Managed'
+Mono config path = 'C:/Users/Johor/Documents/ML/Test06/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
+[Subsystems] Discovering subsystems at path C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.080 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader TextMeshPro/Mobile/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 0.434200 ms
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data/Mono/libSystem.dylib
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+Goal detected
+0
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+Goal detected
+0
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+Goal detected
+0
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+Goal detected
+0
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+---starting Agent---
+dead by time...
+---starting Agent---
+---starting Agent---
+---starting Agent---
+Unable to save timers to file C:/Users/Johor/Documents/ML/Test06/platformerEnvironment_Data\ML-Agents\Timers\SampleScene_timers.json
+Setting up 16 worker threads for Enlighten.
+  Thread -> id: 15720 -> priority: 1 
+  Thread -> id: ad50 -> priority: 1 
+  Thread -> id: 12508 -> priority: 1 
+  Thread -> id: 13f48 -> priority: 1 
+  Thread -> id: 879c -> priority: 1 
+  Thread -> id: 5ac -> priority: 1 
+  Thread -> id: 22d0 -> priority: 1 
+  Thread -> id: 2544 -> priority: 1 
+  Thread -> id: 8560 -> priority: 1 
+  Thread -> id: 80dc -> priority: 1 
+  Thread -> id: 6e34 -> priority: 1 
+  Thread -> id: 2a94 -> priority: 1 
+  Thread -> id: 1735c -> priority: 1 
+  Thread -> id: f0e8 -> priority: 1 
+  Thread -> id: e0b8 -> priority: 1 
+  Thread -> id: 11104 -> priority: 1 
